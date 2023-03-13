@@ -1,7 +1,7 @@
 <div align="center">
 
 # Clone - Tesla Cars
-Um projeto desenvolvido com o intuito de praticar o uso de HTML e CSS, para isso foi feito um clone do site da [Tesla](https://www.tesla.com/).
+Um Projeto Desenvolvido Com O Intuito De Praticar O Uso De HTML E CSS, Para Isso Foi Feito Um Clone Do Site Da [Tesla](https://www.tesla.com/).
 
 [![Projeto Online](img/btnOnline.svg)](https://ericrq.github.io/ProjetoTeslaCars/)
 
