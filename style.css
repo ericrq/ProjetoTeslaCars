@@ -1,0 +1,1025 @@
+/* config scroll suave */ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* reseta + padrao */
+
+* {
+  box-sizing: border-box;  
+  margin: 0px;
+  padding: 0px;
+}
+
+/* img modelo y */
+
+.model_y {
+    width: 1903px;
+    height: 947px;
+    background:url("img/model y.jpg");
+    background-size: 100%;
+    padding: 1px;
+}
+
+/* img modelo x */
+
+.model_x {
+    width: 1903px;
+    height: 947px;
+    background:url("img/model x.jpg");
+    background-size: 100%;
+    padding: 1px;
+} 
+
+/* img modelo s */
+
+.model_s {
+    width: 1903px;
+    height: 947px;
+    background:url("img/model s.jpg");
+    background-size: 100%;
+    padding: 1px;
+} 
+
+/* img modelo 3 */
+
+.model_3 {
+    width: 1903px;
+    height: 947px;
+    background:url("img/model 3.jpg");
+    background-size: 100%;
+    padding: 1px;
+} 
+
+/* logo menu */
+
+.logo-tesla {
+    position: fixed;
+    top: -20px;
+    left: 10px;
+    width: 150px;
+    height: 12px;
+    opacity: 80%;
+    z-index: 2;
+}
+
+/* menu */
+
+.nav a {
+    text-decoration:none;
+    color: black;
+    font-size: 12pt;
+    opacity: 80%;
+    font-family: 'Ubuntu';
+    z-index: 2;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    z-index: 2;
+}
+
+.nav_model {
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    left: 724px;
+    top: -20px;
+    position: fixed;
+    width: 600px;
+    height: 12px;
+    z-index: 2;
+}
+
+.nav_shop {
+    padding: 10px;
+    left: 1720px;
+    top: -23px;
+    position: fixed;
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+    z-index: 2;
+}
+
+/* form de login/inscriçao com validaçao     */
+
+input {
+    text-align: center;
+    color: white;
+}
+
+input:focus:invalid {
+    border-radius: 10px;
+    background-image: url(img/cancelar.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    background-size: 20px;
+}
+
+input:valid {
+    border-radius: 10px;
+    background-image: url(img/check.png);
+    background-repeat: no-repeat;
+    background-position: 2px;
+    background-size: 20px;
+}
+
+input:checked~.form {
+    background-color: rgb(43, 46, 46);
+    border-radius: 10px;
+    width: 500px;
+    height: 537px;
+    position: fixed;
+    top: 165px;
+    left: 730px;
+    z-index: 10;
+    opacity: 98%;
+}
+
+input:checked~.form .form-true {
+    display: flex;
+    z-index: 1;
+}
+
+.email-1 {
+    position: absolute;
+    top: 8px;
+    left: 130px;
+    color: white;
+    text-align: center;
+}
+
+.email-2 {
+    position: absolute;
+    top: 30px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+
+.password-1 {
+    position: absolute;
+    top: 76px;
+    left: 130px;
+    color: white;
+}
+
+.password-2 {
+    position: absolute;
+    top: 100px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+.btn {
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+    position: absolute;
+    top: 150px;
+    left: 123px;
+}
+.singin-btn {
+    color: white;
+    font-size: 16px;
+}
+
+.hr1 {
+    width: 230px;
+    color: white;
+    border: 1px solid rgb(63, 63, 63);
+    position: absolute;
+    top: 210px;
+}
+.hr2 {
+    width: 238px;
+    color: white;
+    border: 1px solid rgb(63, 63, 63);
+    position: absolute;
+    top: 210px;
+    left: 260px;
+}
+
+.OR {
+    color: white;
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    left: 235px;
+}
+
+.form-true, .checkbox {
+    display: none;
+}
+
+.singin {  
+    cursor: pointer;
+    left: 1790px;
+    color: rgb(43, 41, 41);
+    position: fixed;
+    font-size: 14pt;
+    z-index: 9;
+    top: 11px;
+    height: 20px;
+    width: 60px;
+}
+
+.checkbox {
+    position: fixed;
+    top: 30px;
+    left: 1600px;
+    width: 50px;
+    height: 50px;
+}
+
+.Create_Account1 {
+    position: absolute;
+    left: 177px;
+    top: 220px;
+    font-size: 20px;
+    color: white;
+}
+
+.First_Name1 {
+    position: absolute;
+    top: 260px;
+    left: 130px;
+    color: white;
+}
+
+.First_Name2 {
+    position: absolute;
+    top: 280px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+.Last_Name1 {
+    position: absolute;
+    top: 310px;
+    left: 130px;
+    color: white;
+}
+
+.Last_Name2 {
+    position: absolute;
+    top: 330px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+.email3 {
+    position: absolute;
+    top: 360px;
+    left: 130px;
+    color: white;
+}
+
+.email4 {
+    position: absolute;
+    top: 380px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+.password3 {
+    position: absolute;
+    top: 408px;
+    left: 130px;
+    color: white
+}
+
+.password4 {
+    position: absolute;
+    top: 430px;
+    left: 123px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+.btn2 {
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+    position: absolute;
+    top: 500px;
+    left: 123px;
+}
+
+.Create_Account2 {
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    background-color: rgb(77, 76, 75);
+    opacity: 80%;
+}
+
+/* txt principal model y */
+
+.model_y_title {
+    text-align: center;
+    opacity: 80%;
+    font-size: 38pt;
+    width: 200px;
+    height: 50px;
+    left: 874px;
+    top: 115px;    
+    position: absolute;
+} 
+.model_y_subli {
+    text-align: center;
+    opacity: 80%;
+    font-size: 10pt;
+    width: 230px;
+    height: 20px;
+    position: absolute;
+    left: 858px;
+    top: 195px;
+}
+
+.more {
+    background-color:#b8b4b4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top:  843px;
+    left: 754px;
+    opacity: 80%;
+}
+
+.custom {
+	background-color:#464646;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 843px;
+    left: 1000px;
+    opacity: 80%;
+}
+
+.flexa {
+    position: absolute;
+    top: 900px;
+    left: 972px;
+}
+
+/* txt principal model x */
+
+.model_x_title {
+    top: 1068px;
+    left: 874px;
+    opacity: 80%;
+    font-size: 38pt;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+} 
+
+.model_x_subli {
+    opacity: 80%;
+    font-size: 10pt;
+    width: 230px;
+    height: 20px;
+    position: absolute;
+    left: 866px;
+    top: 1147px;
+}
+
+.more_pag2 {
+    background-color:#b8b4b4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 1791px;
+    left: 754px;
+    opacity: 80%;
+
+}
+
+.custom_pag2 {
+	background-color:#464646;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 1791px;
+    left: 1000px;
+    opacity: 80%;
+}
+
+.flexa_pag2 {
+    position: absolute;
+    top: 1845px;
+    left: 973px;
+}
+
+/* txt principal model s */
+
+.model_s_title {
+    opacity: 80%;
+    font-size: 38pt;
+    width: 200px;
+    height: 50px;
+    left: 874px;
+    top: 2019px;
+    position: absolute;
+    text-align: center;
+} 
+.model_s_subli {
+    opacity: 80%;
+    font-size: 10pt;
+    width: 230px;
+    height: 20px;
+    position: absolute;
+    left: 867px;
+    top: 2099px;
+}
+
+.more_pag3 {
+    background-color:#b8b4b4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 2740px;
+    left: 754px;
+    opacity: 80%;
+
+}
+
+.custom_pag3 {
+	background-color:#464646;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 2740px;
+    left: 1000px;
+    opacity: 80%;
+
+}
+
+.flexa_pag3 {
+    position: absolute;
+    top: 2800px;
+    left: 973px;
+}
+
+/* txt principal model 3 */
+
+.model_3_title {
+    opacity: 80%;
+    font-size: 38pt;
+    width: 200px;
+    height: 50px;
+    left: 874px;
+    top: 2968px;
+    position: absolute;
+    text-align: center;
+} 
+.model_3_subli {
+    opacity: 80%;
+    font-size: 10pt;
+    width: 230px;
+    height: 20px;
+    position: absolute;
+    left: 867px;
+    top: 3048px;
+}
+
+.more_pag4 {
+    background-color:#b8b4b4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 3688px;
+    left: 754px;
+    opacity: 80%;
+
+}
+
+.custom_pag4 {
+	background-color:#464646;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 3688px;
+    left: 1000px;
+    opacity: 80%;
+
+}
+
+.flexa_pag4 {
+    position: absolute;
+    top: 3743px;
+    left: 973px;
+}
+
+/* ---------------------------------------------------------- /*
+/* cybertruck */
+
+/* img cybertruck */
+
+.cybertruck {
+    width: 1903px;
+    height: 947px;
+    background:url("img/cybertruck.jpg");
+    background-size: 100%;
+    padding: 1px;
+    background-color: black;
+}
+
+/* tile */
+
+.titulo_cyber {
+    opacity: 80%;
+    font-size: 12pt;
+    width: 600px;
+    height: 50px;
+    left: 660px;
+    top: 750px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+/* subli/order */
+
+.order_cyber {
+    background-color:#b8b4b4;
+    border-radius: 0px 0px 25px 0px;   
+    display:inline-block;
+    cursor:pointer;
+    font-size:15px;
+    padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 810px;
+    left: 876px;
+    opacity: 80%;
+}
+
+/* img2 */
+
+.cyber_02 {
+    position: absolute;
+    top: 980px;
+    left: 358px;
+}
+
+/* img3 */
+
+.cyber_03 {
+    position: absolute;
+    top: 1780px;
+    left: 358px;
+}
+/* img4 */
+
+.cyber_04 {
+    position: absolute;
+    top: 2581px;
+    left: 358px;
+}
+
+/* text exo */
+
+.exoeskeleto_h1 {
+    position: absolute;
+    top: 1600px;
+    left: 548px;
+    color: white;
+}
+
+/* text exo */
+
+.exoeskeleton_paragrafo_p {
+    position: absolute;
+    top: 1650px;
+    left: 550px;
+    width: 800px;
+    font-size: 13pt;
+    text-align: justify;
+    color: white;
+}
+
+/* txt effi */
+
+.performace_eficiencia_h1 {
+    position: absolute;
+    top: 2400px;
+    left: 548px;    
+    color: white;
+
+}
+
+/* txt effi */
+
+.performace_eficiencia_p {
+    position: absolute;
+    top: 2450px;
+    left: 550px;
+    width: 800px;
+    font-size: 13pt;
+    text-align: justify;
+    color: white;
+}
+
+/* backgraund black */
+
+.maincyber {
+    background-color: black;
+    height: 4100px;
+}
+
+/* table */
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 20px 5px;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.tg .tg-zhjt {
+    font-size: 20px;
+    text-align: right;
+    padding-left: 100px;
+}
+
+.tg .tg-h6w4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.tg .specs {
+    font-size: 25px;
+}
+.table_specs {
+    color: white;
+    position: absolute;
+    top: 3295px;
+    left: 350px;
+}
+.td {
+    border-bottom: 1px solid white;
+    z-index: 10;
+}
+
+.car_specs {
+    top: 120px;
+    left: 900px;
+    position: absolute;
+}
+
+/* ---------------------------------------------------------- /*
+/* semi */
+
+
+.semi {
+    background-image: url(img/mini.jpg);
+    width: 1903px;
+    height: 947px;
+    background-size: 100%;
+    padding: 1px;
+}
+
+.title_semi {
+    font-size: 40pt;
+    opacity: 70%;
+    position: absolute;
+    top: 60px;
+    left: 922px;
+}
+
+.p1_semi {
+    position: absolute;
+    top: 720px;
+    left: 680px;
+    width: 600px;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.semi_main {
+    background-color: black;
+    height: 4130px;  
+}
+
+.vidio_semi {
+    position: absolute;
+    top: 1050px;
+    left: 0;
+}
+
+.flexa_semi {
+    position: absolute;
+    top: 910px;
+    left: 973px;
+}
+
+.reserve_now_semi {
+    background-color:#b8b4b4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:14px 65px;
+    text-decoration:none;
+    position: absolute;
+    top: 820px;
+    left: 1150px;
+    opacity: 80%;
+}
+
+/* table semi */
+
+.tg2 td {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 20px 5px;
+}
+
+.tg2 th {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 5px;
+    border-bottom: 1px solid white;
+}
+
+.tg2 .tg-0lax2 {
+    text-align:left;
+    vertical-align:top;
+    font-size: 16px;
+}
+    
+ .tg2 .tg-zhjt2 {
+    font-size: 16px;
+    text-align: right;
+    padding-left: 100px;
+}
+
+.tg2 .tg-h6w42{
+    font-size: 16px;
+    text-align: left;
+}
+
+.table2 {
+    color: white;
+    position: absolute;
+    top: 1650px;
+    left: 666px;
+    z-index: 2;
+}
+
+.table2 td {
+    border-bottom: 1px solid white;
+}
+
+/* destaques caracteristicas */
+
+.performace {
+    position: absolute;
+    top: 2150px;
+    left:250px;
+    z-index: 0;
+}
+
+.performace_h1 {
+    position: absolute;
+    top: 950px;
+    left:250px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.performace_p {
+    position: absolute;
+    top: 950px;
+    left:650px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    width: 600px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.interior_semi {
+    position: absolute;
+    top: 3330px;
+    left: 340px;
+    z-index: 0;
+}
+
+.interior_h1 {
+    position: absolute;
+    top: 640px;
+    left: 0px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.interior_p {
+    position: absolute;
+    top: 640px;
+    left: 400px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    width: 800px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.p2_semi {
+    position: absolute;
+    top: 860px;
+    left: 600px;
+    color: white;
+}
+
+
+.p3_semi {
+    position: absolute;
+    top: 860px;
+    left: 800px;
+    color: white;
+}
+
+
+.p4_semi {
+    position: absolute;
+    top: 860px;
+    left: 1000px;
+    color: white;
+}
+
+/* velocidade */
+
+.velocimetro img{
+    width: 50px;
+    position: absolute;
+    top: 820px;
+    left: 620px;
+}
+
+.velocimetro-20 {
+    position: absolute;
+    top: 780px;
+    left: 680px;
+    font-size: 40px;
+    color: white;
+}
+
+.velocimetro-s {
+    position: absolute;
+    top: 798px;
+    left: 726px;
+    font-size: 30px;
+    color: white;
+}
+
+/* bateria */
+
+.energy-maior {
+    position: absolute;
+    top: 798px;
+    left: 804px;
+    font-size: 30px;
+    color: white;
+}
+
+.energy-2 {
+    position: absolute;
+    top: 798px;
+    left: 821px;
+    font-size: 30px;
+    color: white;
+}
+
+.energy-milhas {
+    position: absolute;
+    top: 798px;
+    left: 843px;
+    font-size: 30px;
+    color: white;
+}
+
+/* luz */
+
+.iluminaçao {
+    position: absolute;
+    top: 798px;
+    left: 1020px;
+    font-size: 30px;
+    color: white;
+}
+
+.iluminaçao-d {
+    position: absolute;
+    top: 840px;
+    left: 1093px;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.iluminaçao-c {
+    position: absolute;
+    top: 802px;
+    left: 1078px;
+    font-size: 28px;
+    color: white;
+}

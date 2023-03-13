@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Cars</title>
+    <!-- link css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- link fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- link icone -->
+    <link rel="shortcut icon" href="img/tesla-logo-8.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- fundo da 1º parte -->
+    <div class="model_y" id="model_y_pag">
+        <header>
+            <!-- logo menu-->
+            <h1 class="logo-tesla">
+                <a href="#model_y_pag">
+                    <img src="img/logo-tesla.png" alt="logo da tesla" height="12px" width="130px">
+                </a>
+            </h1>
+            <!-- menu central -->
+            <nav class="nav">
+                <ul class="nav_model">
+                    <li><a href="Index.html#model_y_pag"><strong>Model Y</strong></a></li>
+                    <li><a href="Index.html#model_x_pag"><strong>Model X</strong></a></li>
+                    <li><a href="Index.html#model_s_pag"><strong>Model S</strong></a></li>
+                    <li><a href="Index.html#model_3_pag"><strong>Model 3</strong></a></li>
+                    <li><a href="cybertruck.html"><strong>Cybertruck</strong></a></li>
+                    <li><a href="semi.html"><strong>Semi</strong></a></li>
+                </ul>
+                <!-- canto shop/login/sing in -->
+                <ul class="nav_shop">
+                    <li><a href="#"><strong>Shop</strong></a></li>
+                </ul>
+            </nav>
+            <label class="singin" for="checkbox">Sing in</label>
+            <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" />
+            <div class="form">
+                <form class="form-true" action="#" method="post">
+                    <label class="email-1" for="email">Email Address</label>
+                    <input class="email-2" placeholder="exemplo@exemplo.com"
+                        pattern="[aA-zZ0-9._%+-]+@[aA-zZ0-9.-]+\.[aA-zZ]{2,4}$" required type="text" name="email"
+                        id="email"><br>
+                    <label class="password-1" for="password">Password</label>
+                    <input class="password-2" placeholder="xxxxxxxx" minlength="8" required type="password"
+                        name="password" id="password">
+                    <button class="btn" type="submit"><span class="singin-btn">Sing in</span></button>
+                    <hr class="hr1">
+                    <hr class="hr2">
+                    <span class="OR">OR</span>
+
+                </form>
+                <form class="form-true" action="#" method="post">
+
+                    <h1 class="Create_Account1">Create Account</h1>
+                    <label class="First_Name1" for="First name">First Name</label>
+                    <input class="First_Name2" placeholder="first name" pattern="[aA-zZ\s]+$" required type="text"
+                        name="First name" id="First name"><br>
+                    <label class="Last_Name1" for="Last Name">Last Name</label>
+                    <input class="Last_Name2" placeholder="last name" pattern="[aA-zZ\s]+$" required type="Last Name"
+                        name="Last Name" id="Last Name">
+
+                    <label class="email3" for="email">Email Address</label>
+                    <input class="email4" placeholder="exemplo@exemplo.com"
+                        pattern="[aA-zZ0-9._%+-]+@[aA-zZ0-9.-]+\.[aA-zZ]{2,4}$" required type="text" name="email"
+                        id="email"><br>
+                    <label class="password3" for="password">Password</label>
+                    <input class="password4" placeholder="xxxxxxxx" minlength="8" required type="password"
+                        name="password" id="password">
+                    <button class="btn2" type="submit"><span class="Create_Account2">Create Account</span></button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <!-- modelo do carro e botoes , model Y -->
+            <h1 class="model_y_title">Model Y</h1>
+            <h2 class="model_y_subli">Order Online for Touchless Delivery</h2>
+            <a href="#" class="custom">Custom Order</a>
+            <a href="#" class="more">Learn More</a>
+            <a href="#model_x_pag" class="flexa"><img src="img/flexa para baixo.png" alt="flexa para baixo"
+                    height="15px" width="20px"></a>
+    </div>
+    <!-- modelo do carro e botoes , model x -->
+    <div class="model_x" id="model_x_pag">
+        <h1 class="model_x_title">Model X</h1>
+        <h2 class="model_x_subli">Order Online for Touchless Delivery</h2>
+        <a href="#" class="custom_pag2">Custom Order</a>
+        <a href="#" class="more_pag2">Learn More</a>
+        <a href="#model_s_pag" class="flexa_pag2"><img src="img/flexa para baixo.png" alt="flexa para baixo"
+                height="15px" width="20px"></a>
+    </div>
+    <!-- modelo do carro e botoes , model S -->
+    <div class="model_s" id="model_s_pag">
+        <h1 class="model_s_title">Model S</h1>
+        <h2 class="model_s_subli">Order Online for Touchless Delivery</h2>
+        <a href="#" class="custom_pag3">Custom Order</a>
+        <a href="#" class="more_pag3">Learn More</a>
+        <a href="#model_3_pag" class="flexa_pag3"><img src="img/flexa para baixo.png" alt="flexa para baixo"
+                height="15px" width="20px"></a>
+    </div>
+    <!-- modelo do carro e botoes , model 3 -->
+    <div class="model_3" id="model_3_pag">
+        <h1 class="model_3_title">Model 3</h1>
+        <h2 class="model_3_subli">Order Online for Touchless Delivery</h2>
+        <a href="#" class="custom_pag4">Custom Order</a>
+        <a href="#" class="more_pag4">Learn More</a>
+        <a href="#model_y_pag" class="flexa_pag4"><img src="img/flexa para cima.png" alt="flexa para baixo"
+                height="15px" width="20px"></a>
+    </div>
+    </main>
+</body>
+
+</html>
